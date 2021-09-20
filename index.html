@@ -1,446 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loans</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+        <title>Loans</title>
+    </head>
+    <body>
 
-</head>
-<body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Siri Sri Harsha Enterprises</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Customer Reviews</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Loans</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__subtitle">Do you need</h1>
+						<h1 class="home__title">LOAN</h1>
+						<h2 class="home__subtitle">at lower interset rate <br> You are at the right place.</h2>
+                        <a href="#menu" class="button">Explore our loans</a>
+                    </div>
     
-<!-- header section starts      -->
-
-<header>
-
-    <a href="#" class="logo">Siri sri harsha solutions</a>
-
-    <nav class="navbar">
-        <a class="active" href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#menu">loans services</a>
-        <a href="#review">customer review</a>
-        <a href="#order">contact us</a>
-    </nav>
-
-    <div class="icons">
-        <i class="fas fa-bars" id="menu-bars"></i>
-        <a href="#" class="fas fa-heart"></a>
-        <a href="#" class="fas fa-shopping-cart"></a>
-    </div>
-
-</header>
-
-<!-- header section ends-->
-
-<!-- home section starts  -->
-
-<section class="home" id="home">
-
-    <div class="swiper-container home-slider">
-
-        <div class="swiper-wrapper wrapper">
-
-            <div class="swiper-slide slide">
-                <div class="content">
-				<p>Are you in the need of</p>
-                    <h3>Loan</h3>
-                    <p>We provide you lowest interest rate</p>
-					<span>A Click Away</span><br>
-                    <a href="#menu" class="btn">Explore Our Loan Services</a>
+                    <img src="assets/img/Saly-3.png" alt="" class="home__img">
                 </div>
-                <div class="image">
-                    <img src="images/home-img-1.png" alt="">
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">India's Largest <br> Financial Distributor</h2>
+                        <p class="about__description">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Dolore, Sequi Corrupti Corporis Quaerat Voluptatem Ipsam Neque Labore Modi Autem, Saepe Numquam Quod Reprehenderit Rem? Tempora Aut Soluta Odio Corporis Nihil!
+
+Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Aperiam, Nemo. Sit Porro Illo Eos Cumque Deleniti Iste Alias, Eum Natus.</p>
+                        <a href="#" class="button">Explore more</a>
+                    </div>
+
+                    <img src="assets/img/Saly-15.png" alt="" class="about__img">
                 </div>
-            </div>
-        <!-- </div> -->
+            </section>
 
-        <div class="swiper-pagination"></div>
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Reviews</span>
+                <h2 class="section-title">Some Words From Our Costumers</h2>
 
-    </div>
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+					  <img src="assets/img/pic-1.png" alt="" class="services__img">
+                         <h3 class="services__title">Excellent</h3>
+                        <p class="services__description">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Co</p>
+                    </div>
 
-</section>
+                    <div class="services__content">
+					 <img src="assets/img/pic-2.png" alt="" class="services__img">
+					<h3 class="services__title">Reliable</h3>
+                        <p class="services__description">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Co</p>
+                    </div>
 
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-    <h3 class="sub-heading"> about us </h3>
-    <h1 class="heading"> why choose us? </h1>
-
-    <div class="row">
-
-        <div class="image">
-            <img src="images/about-img.png" alt="">
-        </div>
-
-        <div class="content">
-            <h3>India's largest financial distributor</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, nemo. Sit porro illo eos cumque deleniti iste alias, eum natus.</p>
-            <div class="icons-container">
-                <div class="icons">
-                    <i class="fas fa-shipping-fast"></i>
-                    <span>We make your loan process easy</span>
+                    <div class="services__content">
+					 <img src="assets/img/pic-3.png" alt="" class="services__img">
+					<h3 class="services__title">Amazing</h3>
+                        <p class="services__description">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam, Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Co</p>
+                    </div>
                 </div>
-                <div class="icons">
-                    <i class="fas fa-dollar-sign"></i>
-                    <span>Best deals on Loans and Interest rates</span>
+            </section>
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Our Loan Services</span>
+                <h2 class="section-title">LOWEST INTEREST RATE YOU HAVE EVER SEEN</h2>
+
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="assets/img/Saly-13.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Personal Loan</h3>
+                        <span class="menu__detail">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-send'></i></a>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/Saly-11.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Home Loan</h3>
+                        <span class="menu__detail">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-send'></i></a>
+                    </div>
+                    
+                    <div class="menu__content">
+                        <img src="assets/img/Saly-8.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Business Loan</h3>
+                        <span class="menu__detail">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-send'></i></a>
+                    </div>
+					
+					  <div class="menu__content">
+                        <img src="assets/img/Saly-6.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Loan Against Property</h3>
+                        <span class="menu__detail">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-send'></i></a>
+                    </div>
+							
+							<div class="menu__content">
+                        <img src="assets/img/Sally-4.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Become A Partner</h3>
+                        <span class="menu__detail">Lorem Ipsum Dolor Sit, Amet Consectetur Adipisicing Elit. Excepturi, Accusantium.</span>
+                        <a href="#" class="button menu__button"><i class='bx bx-send'></i></a>
+                    </div>
                 </div>
-                <div class="icons">
-                    <i class="fas fa-headset"></i>
-                    <span>Partnered with top financial institutions of India</span>
-                </div>
-            </div>
-            <a href="#" class="btn">learn more</a>
-        </div>
+            </section>
 
-    </div>
-
-</section>
-
-<!-- about section ends -->
-
-<!-- menu section starts  -->
-
-<section class="menu" id="menu">
-
-    <h3 class="sub-heading"> our loan services </h3>
-    <h1 class="heading"> lowest interest rate you have ever seen </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-1.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>Personal Loan</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="#" class="btn">Apply Now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-2.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>Home Loan</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="#" class="btn">Apply Now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-3.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>Business Loan</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="#" class="btn">Apply Now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/menu-4.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>Loan Against Property</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="#" class="btn">Apply Now</a>
-            </div>
-        </div>
-		
-		 <div class="box">
-            <div class="image">
-                <img src="images/menu-4.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>Become A Partner</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
-                <a href="#" class="btn">Apply Now</a>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<!-- menu section ends -->
-
-
-<!-- review section starts  -->
-
-<!-- <section class="review" id="review"> -->
-
-    <!-- <h3 class="sub-heading"> customer's review </h3> -->
-    <!-- <h1 class="heading"> what they say </h1> -->
-
-    <!-- <div class="swiper-container review-slider"> -->
-
-        <!-- <div class="swiper-wrapper"> -->
-
-            <!-- <div class="swiper-slide slide"> -->
-                <!-- <i class="fas fa-quote-right"></i> -->
-                <!-- <div class="user"> -->
-                    <!-- <img src="images/pic-1.png" alt=""> -->
-                    <!-- <div class="user-info"> -->
-                        <!-- <h3>john deo</h3> -->
-                        <!-- <div class="stars"> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star-half-alt"></i> -->
+             <!--===== APP =======--> -->
+            <!-- <section class="app section bd-container"> -->
+                <!-- <div class="app__container bd-grid"> -->
+                    <!-- <div class="app__data"> -->
+                        <!-- <span class="section-subtitle app__initial">App</span> -->
+                        <!-- <h2 class="section-title app__initial">App is aviable</h2> -->
+                        <!-- <p class="app__description">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p> -->
+                        <!-- <div class="app__stores"> -->
+                            <!-- <a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a> -->
+                            <!-- <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a> -->
                         <!-- </div> -->
                     <!-- </div> -->
+
+                    <!-- <img src="assets/img/movil-app.png" alt="" class="app__img"> -->
                 <!-- </div> -->
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p> -->
-            <!-- </div> -->
+            <!-- </section> -->
 
-            <!-- <div class="swiper-slide slide"> -->
-                <!-- <i class="fas fa-quote-right"></i> -->
-                <!-- <div class="user"> -->
-                    <!-- <img src="images/pic-2.png" alt=""> -->
-                    <!-- <div class="user-info"> -->
-                        <!-- <h3>john deo</h3> -->
-                        <!-- <div class="stars"> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star-half-alt"></i> -->
-                        <!-- </div> -->
-                    <!-- </div> -->
-                <!-- </div> -->
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p> -->
-            <!-- </div> -->
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Let's talk</span>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <p class="contact__description">If you want to talk with us regarding any loan requirement, contact us and we will attend you quickly, with our 24/7 chat service.</p>
+                    </div>
 
-            <!-- <div class="swiper-slide slide"> -->
-                <!-- <i class="fas fa-quote-right"></i> -->
-                <!-- <div class="user"> -->
-                    <!-- <img src="images/pic-3.png" alt=""> -->
-                    <!-- <div class="user-info"> -->
-                        <!-- <h3>john deo</h3> -->
-                        <!-- <div class="stars"> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star-half-alt"></i> -->
-                        <!-- </div> -->
-                    <!-- </div> -->
-                <!-- </div> -->
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p> -->
-            <!-- </div> -->
+                    <div class="contact__button">
+                        <a href="#" class="button">Contact us now</a>
+                    </div>
+                </div>
+            </section>
+        </main>
 
-            <!-- <div class="swiper-slide slide"> -->
-                <!-- <i class="fas fa-quote-right"></i> -->
-                <!-- <div class="user"> -->
-                    <!-- <img src="images/pic-4.png" alt=""> -->
-                    <!-- <div class="user-info"> -->
-                        <!-- <h3>john deo</h3> -->
-                        <!-- <div class="stars"> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star"></i> -->
-                            <!-- <i class="fas fa-star-half-alt"></i> -->
-                        <!-- </div> -->
-                    <!-- </div> -->
-                <!-- </div> -->
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p> -->
-            <!-- </div> -->
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Siri Sri Harsha Solutions</a>
+                    <span class="footer__description">We are here to serve you</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
 
-        <!-- </div> -->
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Personal Loan</a></li>
+                        <li><a href="#" class="footer__link">Home Loan</a></li>
+                        <li><a href="#" class="footer__link">Business Loan</a></li>
+                        <li><a href="#" class="footer__link">Loan Against Property</a></li>
+						 <li><a href="#" class="footer__link">Become A Partner</a></li>
+                    </ul>
+                </div>
 
-    <!-- </div> -->
-    
-<!-- </section> -->
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Event</a></li>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
 
-<div class="testimonials">
-  <h2 class="title">Some words from our costumers</h2>
-  <p class="description">We've been helping businesses to do their best since 2003.</p>
-
-  <div class="slider-container">
-    <div class="slider">
-      <div class="slide-box">
-        <!-- Testi One -->
-        <p class="comment">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <img src="https://images.unsplash.com/photo-1595152452543-e5fc28ebc2b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80" />
-        <h3 class="name">Albert Sinelly</h3>
-        <h4 class="job">Founder Of Devoker Company</h4>
-      </div>
-      <div class="slide-box">
-        <!-- Testi Two -->
-        <p class="comment">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.
-        </p>
-        <img src="https://images.unsplash.com/photo-1627541718143-1adc1b582e62?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bXVzbGltfGVufDB8MnwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
-        <h3 class="name">Hirok Meryam</h3>
-        <h4 class="job">Full stack Developer, Speaker</h4>
-      </div>
-      <div class="slide-box">
-        <!-- Testi Three -->
-        <p class="comment">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.
-        </p>
-        <img src="https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGZhY2V8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
-        <h3 class="name">Sebastian Sert</h3>
-        <h4 class="job">UX/UI Designer, Phtographer</h4>
-      </div>
-	    <div class="slide-box">
-        <!-- Testi Three -->
-        <p class="comment">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.
-        </p>
-        <img src="https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGZhY2V8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
-        <h3 class="name">Sebastian Sert</h3>
-        <h4 class="job">UX/UI Designer, Phtographer</h4>
-      </div>
-    </div>
-
-    <a href="#!" class="control-slider btn-left">
-      <i class="fas fa-chevron-left"></i>
-    </a>
-    <a href="#!" class="control-slider btn-right">
-      <i class="fas fa-chevron-right"></i>
-    </a>
-  </div>
-</div>
-<!-- review section ends -->
-
-<!-- order section starts  -->
-
-<section class="order" id="order">
-
-    <h1 class="sub-heading"> Contact Us </h1>
-
-    <form action="">
-
-        <div class="inputBox">
-            <div class="input">
-                <span>your name</span>
-                <input type="text" placeholder="enter your name">
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>Lima - Peru</li>
+                        <li>Jr Union #999</li>
+                        <li>999 - 888 - 777</li>
+                        <li>sirisriharsha@email.com</li>
+                    </ul>
+                </div>
             </div>
-            <div class="input">
-                <span>your number</span>
-                <input type="number" placeholder="enter your number">
-            </div>
-        </div>
-        <div class="inputBox">
-            <div class="input">
-                <span>your message</span>
-                <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
-            </div>
-        </div>
 
-        <input type="submit" value="Send" class="btn">
+            <p class="footer__copy">&#169; 2021 siri sri harsha solutions. All right reserved</p>
+        </footer>
 
-    </form>
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-</section>
-
-<!-- order section ends -->
-
-<!-- footer section starts  -->
-
-<section class="footer">
-
-    <div class="box-container">
-
-        <div class="box">
-            <h3>locations</h3>
-            <a href="#">india</a>
-            <a href="#">japan</a>
-            <a href="#">russia</a>
-            <a href="#">USA</a>
-            <a href="#">france</a>
-        </div>
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#">Home Loans</a>
-            <a href="#">Home Loan Types</a>
-            <a href="#">Compare Home Loans</a>
-            <a href="#">Home Loan Eligibility Criteria</a>
-            <a href="#">Home Loan Partners & Offers</a>
-        </div>
-
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#">+123-456-7890</a>
-            <a href="#">+111-222-3333</a>
-            <a href="#">sirisriharsha@gmail.com</a>
-            <a href="#">####@gmail.com</a>
-            <a href="#">hyderabad, india - 500056</a>
-        </div>
-
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#">facebook</a>
-            <a href="#">twitter</a>
-            <a href="#">instagram</a>
-            <a href="#">linkedin</a>
-        </div>
-
-    </div>
-
-    <div class="credit"> copyright @ 2021 by <span>siri sri harsha solutions</span> </div>
-
-</section>
-
-<!-- footer section ends -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
-
-</body>
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
