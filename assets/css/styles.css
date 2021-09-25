@@ -108,7 +108,7 @@ img{
 
 /*========== CLASS CSS ==========*/
 .section{
-  padding: 4rem 0 2rem;
+  padding: 0rem 0 2rem;
 }
 
 .section-title, .section-subtitle{
@@ -489,7 +489,7 @@ img{
   }
 
   .section{
-    padding-top: 8rem;
+    padding-top: 4rem;
   }
 
   .nav{
